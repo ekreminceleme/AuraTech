@@ -142,7 +142,7 @@ export default function ReservationModal({ isOpen, onClose }) {
           <div className="hidden md:grid place-items-center">
             <div className="w-full">
               <img
-                src="/aura-headphones.svg"
+                src={`${import.meta.env.BASE_URL}aura-headphones.svg`}
                 alt="Aura One headphones"
                 className="modal-float h-auto w-full object-cover"
               />
