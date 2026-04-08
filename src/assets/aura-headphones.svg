@@ -1,0 +1,18 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#020617"/>
+  <ellipse cx="600" cy="450" rx="360" ry="240" fill="url(#glow)" fill-opacity="0.28"/>
+  <path d="M330 470C330 320 452 198 602 198C752 198 874 320 874 470V565H804V470C804 359 714 269 602 269C490 269 400 359 400 470V565H330V470Z" fill="#334155"/>
+  <rect x="286" y="528" width="142" height="196" rx="64" fill="#94A3B8"/>
+  <rect x="774" y="528" width="142" height="196" rx="64" fill="#94A3B8"/>
+  <rect x="318" y="556" width="78" height="140" rx="34" fill="#E2E8F0"/>
+  <rect x="806" y="556" width="78" height="140" rx="34" fill="#E2E8F0"/>
+  <circle cx="356" cy="626" r="20" fill="#22D3EE" fill-opacity="0.5"/>
+  <circle cx="844" cy="626" r="20" fill="#22D3EE" fill-opacity="0.5"/>
+  <text x="600" y="820" text-anchor="middle" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="30" letter-spacing="8">AURA ONE</text>
+  <defs>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 450) rotate(90) scale(240 360)">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import auraHeadphonesImage from "../assets/aura-headphones.svg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -111,7 +112,7 @@ export default function HeroSection() {
         >
           <div className="absolute -inset-8 -z-10 rounded-full bg-cyan-400/10 blur-3xl" />
           <img
-            src={`${import.meta.env.BASE_URL}aura-headphones.svg`}
+            src={auraHeadphonesImage}
             alt="Aura Tech premium headphones"
             loading="eager"
             className="h-auto w-full rounded-3xl border border-white/10 object-cover shadow-2xl shadow-cyan-500/10"

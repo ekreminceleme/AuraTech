@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import auraHeadphonesImage from "../assets/aura-headphones.svg";
 
 export default function ReservationModal({ isOpen, onClose }) {
   const panelRef = useRef(null);
@@ -142,7 +143,7 @@ export default function ReservationModal({ isOpen, onClose }) {
           <div className="hidden md:grid place-items-center">
             <div className="w-full">
               <img
-                src={`${import.meta.env.BASE_URL}aura-headphones.svg`}
+                src={auraHeadphonesImage}
                 alt="Aura One headphones"
                 className="modal-float h-auto w-full object-cover"
               />
